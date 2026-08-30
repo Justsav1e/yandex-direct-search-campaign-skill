@@ -136,30 +136,6 @@ Workflow специально рассчитан на совместное ис�
 
 **Требование:** фактические утверждения о текущих правилах Яндекса должны сопровождаться ссылками на источники.
 
-Локальные reference-файлы в репозитории — это checklist и snapshot, а не вечная истина.
-
-## Структура репозитория
-
-```text
-yandex-direct-campaign-builder/
-├── SKILL.md
-├── README.md
-├── references/
-│   ├── current-yandex-rules.md
-│   ├── landing-seo-cro-analytics.md
-│   ├── semantics-negatives-operators.md
-│   ├── sources.md
-│   └── state-ledger.md
-├── assets/
-│   ├── campaign-handoff-template.md
-│   ├── group-workbook-template.md
-│   └── wordstat-request-template.md
-├── scripts/
-│   └── wordstat_index.py
-└── evals/
-    └── eval-prompts.md
-```
-
 ## Установка
 
 ### Агенты с поддержкой Agent Skills
